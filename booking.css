@@ -1,0 +1,30 @@
+/* main.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgba(135, 206, 235, 0.7), rgba(0, 84, 158, 0.7)), url('Absolute.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card {
+    background: linear-gradient(135deg, rgba(135, 206, 235, 0.7), rgba(0, 84, 158, 0.7));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Rest of your CSS for the flight booking form goes here */
+
+/* Additional styles for the flight booking form */
